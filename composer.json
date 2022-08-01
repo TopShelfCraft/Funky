@@ -1,0 +1,36 @@
+{
+    "name": "topshelfcraft/funky",
+    "description": "A func-y extension for Craft CMS, to enable anonymous function definition in Twig.",
+    "type": "yii2-extension",
+    "version": "4.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twig functions",
+        "funky"
+    ],
+    "support": {
+        "docs": "https://github.com/TopShelfCraft/Funky",
+        "issues": "https://github.com/TopShelfCraft/Funky/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Top Shelf Craft (Michael Rog)",
+            "homepage": "https://topshelfcraft.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "TopShelfCraft\\Funky\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "TopShelfCraft\\Funky\\Funky"
+    }
+}
